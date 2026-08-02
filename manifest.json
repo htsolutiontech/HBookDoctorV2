@@ -1,0 +1,564 @@
+{
+  "title": "Cẩm nang ứng dụng AI cho bác sĩ, điều dưỡng và nhân viên y tế",
+  "subtitle": "Phù hợp bối cảnh Y tế Việt Nam hiện nay",
+  "pageCount": 69,
+  "source": "Cẩm nang AI doctor VN(2).docx",
+  "renderedPdf": "assets/Cam-nang-AI-y-te-Viet-Nam-2026.pdf",
+  "pages": [
+    {
+      "page": 1,
+      "file": "assets/pages/page-001.png",
+      "thumbnail": "assets/thumbs/page-001.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "8b831c1dbed4b8221922b03acc17df1359d32e11a4d7e80d73d6229f5f9bfc72"
+    },
+    {
+      "page": 2,
+      "file": "assets/pages/page-002.png",
+      "thumbnail": "assets/thumbs/page-002.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "9732a888acb9675d41922d215b9e9b1a7e194abe9c2909f92d54ca40ca5b653b"
+    },
+    {
+      "page": 3,
+      "file": "assets/pages/page-003.png",
+      "thumbnail": "assets/thumbs/page-003.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "091811a02893f3c59b974304813345ff9618f6895e50c49f818ce9fc4f15b5fe"
+    },
+    {
+      "page": 4,
+      "file": "assets/pages/page-004.png",
+      "thumbnail": "assets/thumbs/page-004.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "f1cfad7005672931786ca2b84bfd284a8373577c3ad509d13f818445cb481f56"
+    },
+    {
+      "page": 5,
+      "file": "assets/pages/page-005.png",
+      "thumbnail": "assets/thumbs/page-005.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "85756d65e8678251134c09c8d757ac22ccee23cb1994de7f080b5e4ee960cd0f"
+    },
+    {
+      "page": 6,
+      "file": "assets/pages/page-006.png",
+      "thumbnail": "assets/thumbs/page-006.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "df1fae20a08076819fc91d09878197a5d233522ce8f01e28b3ddbfd81c18ce55"
+    },
+    {
+      "page": 7,
+      "file": "assets/pages/page-007.png",
+      "thumbnail": "assets/thumbs/page-007.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "9d91aea41a2e11962ed887c2f34eb3c370b23687e9aa342fb5845d4d6dda6924"
+    },
+    {
+      "page": 8,
+      "file": "assets/pages/page-008.png",
+      "thumbnail": "assets/thumbs/page-008.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "54cf13e44231ca7b4391b501c92b1731866fe8fbfdc3bdec9ccae16fd01d0ae3"
+    },
+    {
+      "page": 9,
+      "file": "assets/pages/page-009.png",
+      "thumbnail": "assets/thumbs/page-009.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "6e3c21da74e778e6f23ca0298770d33cab54557e45698e72d08eee4c7dfa1d13"
+    },
+    {
+      "page": 10,
+      "file": "assets/pages/page-010.png",
+      "thumbnail": "assets/thumbs/page-010.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "826d4889a04c89e5eaaf7c417b81ffb10f3541b9b54f9b5f4d423df55a7eced6"
+    },
+    {
+      "page": 11,
+      "file": "assets/pages/page-011.png",
+      "thumbnail": "assets/thumbs/page-011.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "3ed5d5ba2a1348132da2682829900365ad711b5540d37be26a3e7d9388010f90"
+    },
+    {
+      "page": 12,
+      "file": "assets/pages/page-012.png",
+      "thumbnail": "assets/thumbs/page-012.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "8d91b2d343eb9fa76068a22e21e0e268d5d716de28eac252d444fbc9ec73f102"
+    },
+    {
+      "page": 13,
+      "file": "assets/pages/page-013.png",
+      "thumbnail": "assets/thumbs/page-013.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "19249413915fded36b18f6f18b6e3c27e03c09dcf2d511ecbe3f4ec59e23bd8b"
+    },
+    {
+      "page": 14,
+      "file": "assets/pages/page-014.png",
+      "thumbnail": "assets/thumbs/page-014.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "4eeb98939616f4bf6814e6a0b1dd515183c1b5988cd5d3a65c46e88f55c3cc38"
+    },
+    {
+      "page": 15,
+      "file": "assets/pages/page-015.png",
+      "thumbnail": "assets/thumbs/page-015.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "cdebb042fb29126e5eca5a4008cb2f66232eb4f0557b9ef2b3db0699a35ffda7"
+    },
+    {
+      "page": 16,
+      "file": "assets/pages/page-016.png",
+      "thumbnail": "assets/thumbs/page-016.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "5380448eb22adf77a5c3820b7e3ec20ef133709ed0aea260934a85f3a2392f80"
+    },
+    {
+      "page": 17,
+      "file": "assets/pages/page-017.png",
+      "thumbnail": "assets/thumbs/page-017.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "b61eba43a9611de88e72eebe874f337bc219e8b2df35e5055f1a2850b6fa0183"
+    },
+    {
+      "page": 18,
+      "file": "assets/pages/page-018.png",
+      "thumbnail": "assets/thumbs/page-018.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "06d72010b7bda6b666adbda2a9fd2c9f610d6bfe1be905da614fd91e28b8ccb7"
+    },
+    {
+      "page": 19,
+      "file": "assets/pages/page-019.png",
+      "thumbnail": "assets/thumbs/page-019.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "70127276bf722aedfe60e99e929ce2cfc6382259c66d8dcb1122525fd343cb54"
+    },
+    {
+      "page": 20,
+      "file": "assets/pages/page-020.png",
+      "thumbnail": "assets/thumbs/page-020.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "d7d89817edb92f61a947573b7ee911f5f6485e6e02eff2293a49240d758a1c64"
+    },
+    {
+      "page": 21,
+      "file": "assets/pages/page-021.png",
+      "thumbnail": "assets/thumbs/page-021.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "1f661f06391b3facba53901e2ec8351327feb056ec833a739c01e05cf47d839d"
+    },
+    {
+      "page": 22,
+      "file": "assets/pages/page-022.png",
+      "thumbnail": "assets/thumbs/page-022.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "a726ef118fd3658cd93935203c8d3ab363522f542f16bc6d2bc3af557b70f9aa"
+    },
+    {
+      "page": 23,
+      "file": "assets/pages/page-023.png",
+      "thumbnail": "assets/thumbs/page-023.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "438b02762f695ec477faed339ed28440f689146f2243376b55b337fe32a95071"
+    },
+    {
+      "page": 24,
+      "file": "assets/pages/page-024.png",
+      "thumbnail": "assets/thumbs/page-024.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "a7919b8f8fd24363a4acfffb118327c1802373e84aa4bfa7fa69278dcebf6c1b"
+    },
+    {
+      "page": 25,
+      "file": "assets/pages/page-025.png",
+      "thumbnail": "assets/thumbs/page-025.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "0f20b2e7485bd94dc1009d7b112e5675d49c399244ab4a825e37bf7bf44bdb6f"
+    },
+    {
+      "page": 26,
+      "file": "assets/pages/page-026.png",
+      "thumbnail": "assets/thumbs/page-026.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "f0c697fa4c0859cf6ac3429d5bed4e309542872810bcfc2f0643a39275b6b896"
+    },
+    {
+      "page": 27,
+      "file": "assets/pages/page-027.png",
+      "thumbnail": "assets/thumbs/page-027.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "d4555a408e9d17815af09f4b4efe05cf3e2aef31f7f93131baf802182ba814ba"
+    },
+    {
+      "page": 28,
+      "file": "assets/pages/page-028.png",
+      "thumbnail": "assets/thumbs/page-028.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "221da6df5384452a94ee75112e3e109b70bafa9bb7f1f57a973cfa97ae233263"
+    },
+    {
+      "page": 29,
+      "file": "assets/pages/page-029.png",
+      "thumbnail": "assets/thumbs/page-029.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "d7ce2b4cf9c79dc1ec650a73822e62a0f196ca53edf67523a262a204c28224d1"
+    },
+    {
+      "page": 30,
+      "file": "assets/pages/page-030.png",
+      "thumbnail": "assets/thumbs/page-030.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "685b2b8bb5903314f8f5c8f5ef3250844eab0ae80f8664ae791d3bbec8004411"
+    },
+    {
+      "page": 31,
+      "file": "assets/pages/page-031.png",
+      "thumbnail": "assets/thumbs/page-031.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "6a6d344fbab8f82a1cb31e50aab153099108c8783186c3d91c574059303856f8"
+    },
+    {
+      "page": 32,
+      "file": "assets/pages/page-032.png",
+      "thumbnail": "assets/thumbs/page-032.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "a1c3fed05709ff9330339f61c593840bc2f7815d228ed0b7017668cbe165ebbd"
+    },
+    {
+      "page": 33,
+      "file": "assets/pages/page-033.png",
+      "thumbnail": "assets/thumbs/page-033.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "7e151b6f8af7d24dd6e49cc9ee9b05fd76d232e0bf973e55b6e4479505860238"
+    },
+    {
+      "page": 34,
+      "file": "assets/pages/page-034.png",
+      "thumbnail": "assets/thumbs/page-034.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "efe5f3a817c1820ceb011e3cc7beadc27dec475ccc823c865df4feea80924fa6"
+    },
+    {
+      "page": 35,
+      "file": "assets/pages/page-035.png",
+      "thumbnail": "assets/thumbs/page-035.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "874202f0ac8515d847474b7f62f85911a8bb6ada69f870e96d8e04dc078e1356"
+    },
+    {
+      "page": 36,
+      "file": "assets/pages/page-036.png",
+      "thumbnail": "assets/thumbs/page-036.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "824aeda537db48b68b8dd81ab153c77d7004db86971b0046dc4bfeddea104744"
+    },
+    {
+      "page": 37,
+      "file": "assets/pages/page-037.png",
+      "thumbnail": "assets/thumbs/page-037.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "8d90cf71341c014ff760e22828af6170edd6cfa77cc3af5aad6f79dee8553359"
+    },
+    {
+      "page": 38,
+      "file": "assets/pages/page-038.png",
+      "thumbnail": "assets/thumbs/page-038.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "b0b4e334a290a56c3e063a650535ac25c28e7002048c4af738a96c916677acb3"
+    },
+    {
+      "page": 39,
+      "file": "assets/pages/page-039.png",
+      "thumbnail": "assets/thumbs/page-039.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "8bf329bade3d6f92e0a669666c918ff3d317e638f3b01f02c3f89696e0c9e71f"
+    },
+    {
+      "page": 40,
+      "file": "assets/pages/page-040.png",
+      "thumbnail": "assets/thumbs/page-040.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "c6065bafd32b19944cc45d965024dcae76d6fd8192cc267c99a39a17d1ca7a50"
+    },
+    {
+      "page": 41,
+      "file": "assets/pages/page-041.png",
+      "thumbnail": "assets/thumbs/page-041.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "28adfdafed1ef85a94417e0009d045a589ba18feffc8f81f672cc758e5639778"
+    },
+    {
+      "page": 42,
+      "file": "assets/pages/page-042.png",
+      "thumbnail": "assets/thumbs/page-042.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "f3e2b9dbdf871691eb3cb788e795b5d171bb19a535d7ebb6d24ea174e814d898"
+    },
+    {
+      "page": 43,
+      "file": "assets/pages/page-043.png",
+      "thumbnail": "assets/thumbs/page-043.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "5d023859d5f1276eabad4c70a605781d353418dfab6aaf9ab5a2079a9faa555d"
+    },
+    {
+      "page": 44,
+      "file": "assets/pages/page-044.png",
+      "thumbnail": "assets/thumbs/page-044.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "cd19f35db12fa5c0ee0b601420bff00c564129714b4529f0f74d51623c9d561f"
+    },
+    {
+      "page": 45,
+      "file": "assets/pages/page-045.png",
+      "thumbnail": "assets/thumbs/page-045.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "95631020229309371546f66004f701c6771f32481d07f684185a4ae3ac85381b"
+    },
+    {
+      "page": 46,
+      "file": "assets/pages/page-046.png",
+      "thumbnail": "assets/thumbs/page-046.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "ac8b67f426c378f1f9b1d8a27c3917224fffca39b4e4e4cc772177371d4c0068"
+    },
+    {
+      "page": 47,
+      "file": "assets/pages/page-047.png",
+      "thumbnail": "assets/thumbs/page-047.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "ec197eafc733d70dcaa8b30f5938683af53e717ee8a0356831d1d5fe3aef643e"
+    },
+    {
+      "page": 48,
+      "file": "assets/pages/page-048.png",
+      "thumbnail": "assets/thumbs/page-048.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "a1b89c0d3d0f6215f377f9816d58a4b42c08e0d4f1ac964563ea2471c5d4afe7"
+    },
+    {
+      "page": 49,
+      "file": "assets/pages/page-049.png",
+      "thumbnail": "assets/thumbs/page-049.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "863e77cd373b268818e704ad82e6eee63b43bd18abe6b9047ae4da4de3776419"
+    },
+    {
+      "page": 50,
+      "file": "assets/pages/page-050.png",
+      "thumbnail": "assets/thumbs/page-050.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "ea2513dbf837442f647d2c92147b67a2e87590ee575e7191eca8d7d96691601c"
+    },
+    {
+      "page": 51,
+      "file": "assets/pages/page-051.png",
+      "thumbnail": "assets/thumbs/page-051.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "97c754195a9d5a5bed075cf833806aa0c397eee6e076e3c389c9d20affed8bc5"
+    },
+    {
+      "page": 52,
+      "file": "assets/pages/page-052.png",
+      "thumbnail": "assets/thumbs/page-052.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "36dd4b5aa831b5a79006ed8a71cdeca8029317aa6e0396fb38dab2c3a39601c5"
+    },
+    {
+      "page": 53,
+      "file": "assets/pages/page-053.png",
+      "thumbnail": "assets/thumbs/page-053.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "c9ff587b275e9bec761eb039822949f9ff897390da63cf68e479d06dd7abf929"
+    },
+    {
+      "page": 54,
+      "file": "assets/pages/page-054.png",
+      "thumbnail": "assets/thumbs/page-054.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "63c2b72fedebf26149bc56d6de935ba093521e2ae9efd23ad1025884843d569f"
+    },
+    {
+      "page": 55,
+      "file": "assets/pages/page-055.png",
+      "thumbnail": "assets/thumbs/page-055.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "8166cb2d7ce868fc50165be1c08f52e90f2803346fd57873677f34ff5864818a"
+    },
+    {
+      "page": 56,
+      "file": "assets/pages/page-056.png",
+      "thumbnail": "assets/thumbs/page-056.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "b87ca39af2693edae0fae810cfc5c244fbf2d7f1ffb0478558e555f1df6e00ae"
+    },
+    {
+      "page": 57,
+      "file": "assets/pages/page-057.png",
+      "thumbnail": "assets/thumbs/page-057.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "8432b302402889b63f6060b1ce94b52bf065dc37e4526e9af6cc48a498f07ff2"
+    },
+    {
+      "page": 58,
+      "file": "assets/pages/page-058.png",
+      "thumbnail": "assets/thumbs/page-058.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "17f2f4017c39fa6d9a80f98ff68e15760d068ba5fb2515e587c4c41d7ad3a477"
+    },
+    {
+      "page": 59,
+      "file": "assets/pages/page-059.png",
+      "thumbnail": "assets/thumbs/page-059.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "8b9382b27d61757cd65156e80a0e345adcb3becf7f5e1f7feee2d79db55833c7"
+    },
+    {
+      "page": 60,
+      "file": "assets/pages/page-060.png",
+      "thumbnail": "assets/thumbs/page-060.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "3aef956abe4de860439822c62fda28335273d87956b5ee05712f74bd07330cb2"
+    },
+    {
+      "page": 61,
+      "file": "assets/pages/page-061.png",
+      "thumbnail": "assets/thumbs/page-061.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "c0be4bff99fb7e7f924c1a92f861395d5ee7ea6f075c453b187807406446b0d1"
+    },
+    {
+      "page": 62,
+      "file": "assets/pages/page-062.png",
+      "thumbnail": "assets/thumbs/page-062.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "2d1b3050bf06266995201857e0a9c10644dc39e4fba827dae7db2ad605701792"
+    },
+    {
+      "page": 63,
+      "file": "assets/pages/page-063.png",
+      "thumbnail": "assets/thumbs/page-063.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "dc1867195c677eb471c021b76b0d538209d991f9ff75791746a76503afe5968f"
+    },
+    {
+      "page": 64,
+      "file": "assets/pages/page-064.png",
+      "thumbnail": "assets/thumbs/page-064.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "16e8de1c2cd50c7721fc387c1285511330ab5eab0276c099abb775310ada0a11"
+    },
+    {
+      "page": 65,
+      "file": "assets/pages/page-065.png",
+      "thumbnail": "assets/thumbs/page-065.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "d201fadcac0d20cf8f490d10305a63d8291066cc2a7e850f1c09dc13ea7aad91"
+    },
+    {
+      "page": 66,
+      "file": "assets/pages/page-066.png",
+      "thumbnail": "assets/thumbs/page-066.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "0d3bdc690f762cf1473116200cf75ef977de75ae8c2295773e008eb283ece91b"
+    },
+    {
+      "page": 67,
+      "file": "assets/pages/page-067.png",
+      "thumbnail": "assets/thumbs/page-067.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "d87d4cefa9c49c4af9be74eb65ee8086835e947dd418b2a61a4654fcf85b61b1"
+    },
+    {
+      "page": 68,
+      "file": "assets/pages/page-068.png",
+      "thumbnail": "assets/thumbs/page-068.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "09e6dd71aa2932889b54873985428cfbf74b5afdb4309836948487fe9d9c013d"
+    },
+    {
+      "page": 69,
+      "file": "assets/pages/page-069.png",
+      "thumbnail": "assets/thumbs/page-069.webp",
+      "width": 1414,
+      "height": 2000,
+      "sha256": "e1c2fe6dcea50f1a8fd57c6b6bcae1ff765c660ec46d8e21a56c2323f02df75e"
+    }
+  ],
+  "viewerMode": "single-page",
+  "navigationStep": 1,
+  "version": "2.0-single-page"
+}

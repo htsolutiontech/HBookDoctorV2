@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="description" content="Cẩm nang ứng dụng AI cho bác sĩ, điều dưỡng và nhân viên y tế - chế độ đọc một trang, lật từng trang.">
+  <meta name="theme-color" content="#073b66">
+  <title>Cẩm nang AI Y tế Việt Nam 2026 | Đọc một trang</title>
+  <link rel="icon" href="assets/thumbs/page-001.webp" type="image/webp">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app" id="app">
+    <header class="topbar">
+      <div class="brand">
+        <button class="icon-btn" id="sidebarBtn" aria-label="Mở mục lục" aria-expanded="false" title="Mục lục">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+        <div class="brand-mark" aria-hidden="true">AI</div>
+        <div class="brand-copy">
+          <strong>Cẩm nang AI Y tế Việt Nam 2026-By BinhMinhAI</strong>
+          <span>Cẩm nang được xây dựng tham khảo tài liệu: The Physician's Guide to AI - The Practical Primer Across Specialties - Offcall & MD Plus và tham khảo thực tế tình hình Y tế Việt Nam</span>
+          <span>Kênh tham khảo cho bác sĩ, điều dưỡng và nhân viên y tế (Bản Test xin ý kiến đóng góp chuyên gia, Bác sĩ)</span>
+       
+        </div>
+      </div>
+      <div class="top-actions">
+        <button class="icon-btn" id="themeBtn" aria-label="Đổi giao diện sáng hoặc tối" title="Sáng / tối">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"/></svg>
+        </button>
+        <a class="icon-btn" href="assets/Cam-nang-AI-y-te-Viet-Nam-2026.pdf" download aria-label="Tải bản PDF" title="Tải PDF">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12M7 10l5 5 5-5M5 21h14"/></svg>
+        </a>
+        <button class="icon-btn" id="fullscreenBtn" aria-label="Bật hoặc tắt toàn màn hình" title="Toàn màn hình">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3H3v5M16 3h5v5M8 21H3v-5M16 21h5v-5"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <aside class="sidebar" id="sidebar" aria-hidden="true">
+      <div class="sidebar-head">
+        <div>
+          <strong>Điều hướng cẩm nang</strong>
+          <small>69 trang • mở đúng từng trang</small>
+        </div>
+        <button class="icon-btn" id="closeSidebarBtn" aria-label="Đóng mục lục">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>
+        </button>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Các cách điều hướng">
+        <button class="tab active" data-tab="toc" role="tab" aria-selected="true">Mục lục</button>
+        <button class="tab" data-tab="thumbs" role="tab" aria-selected="false">Trang</button>
+        <button class="tab" data-tab="search" role="tab" aria-selected="false">Tìm kiếm</button>
+      </div>
+      <div class="tab-panel active" id="panel-toc" role="tabpanel"><div id="tocList" class="toc-list"></div></div>
+      <div class="tab-panel" id="panel-thumbs" role="tabpanel"><div id="thumbGrid" class="thumb-grid"></div></div>
+      <div class="tab-panel search-panel" id="panel-search" role="tabpanel">
+        <label class="search-box">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>
+          <input id="searchInput" type="search" placeholder="Tìm nội dung trong 69 trang..." autocomplete="off">
+        </label>
+        <div class="search-hint">Nhập ít nhất 2 ký tự. Chọn kết quả để mở đúng trang.</div>
+        <div id="searchResults" class="search-results"></div>
+      </div>
+    </aside>
+    <div class="scrim" id="scrim" hidden></div>
+
+    <main class="reader" id="reader">
+      <div class="reader-tools" aria-label="Công cụ đọc">
+        <button class="tool-btn text-zoom" id="zoomOutBtn" title="Thu nhỏ trang" aria-label="Thu nhỏ trang">A−</button>
+        <button class="zoom-label" id="zoomResetBtn" title="Đặt lại mức phóng" aria-label="Đặt lại mức phóng">100%</button>
+        <button class="tool-btn text-zoom" id="zoomInBtn" title="Phóng to trang" aria-label="Phóng to trang">A+</button>
+        <span class="tool-sep" aria-hidden="true"></span>
+        <button class="tool-btn read-btn active" id="readModeBtn" title="Chế độ đọc rõ" aria-label="Chế độ đọc rõ">Đọc rõ</button>
+        <button class="tool-btn fit-btn" id="fitBtn" title="Thu trang vừa màn hình" aria-label="Thu trang vừa màn hình">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9V4h5M15 4h5v5M20 15v5h-5M9 20H4v-5"/></svg>
+        </button>
+      </div>
+
+      <div class="stage" id="stage">
+        <button class="edge-nav edge-left" id="edgePrev" aria-label="Lật về trang trước" title="Trang trước">
+          <span aria-hidden="true">‹</span>
+        </button>
+        <div class="book-zoom" id="bookZoom">
+          <div class="book" id="book" aria-live="polite" aria-label="Trang đang đọc">
+            <div class="page-slot" id="pageSlot">
+              <img id="pageImg" alt="">
+            </div>
+            <div class="flip-layer" id="flipLayer" aria-hidden="true">
+              <div class="flip-face flip-front"><img id="flipFront" alt=""></div>
+              <div class="flip-face flip-back"><img id="flipBack" alt=""></div>
+            </div>
+          </div>
+        </div>
+        <button class="edge-nav edge-right" id="edgeNext" aria-label="Lật sang trang sau" title="Trang sau">
+          <span aria-hidden="true">›</span>
+        </button>
+      </div>
+
+      <footer class="controlbar">
+        <button class="nav-btn" id="prevBtn" aria-label="Trang trước" title="Trang trước (phím mũi tên trái)">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg><span>Trang trước</span>
+        </button>
+        <div class="page-control">
+          <div class="page-label" id="pageLabel">Trang 1 / 69</div>
+          <input id="pageRange" type="range" min="1" max="69" value="1" aria-label="Chuyển nhanh đến trang">
+        </div>
+        <button class="nav-btn" id="nextBtn" aria-label="Trang sau" title="Trang sau (phím mũi tên phải)">
+          <span>Trang sau</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </footer>
+    </main>
+
+    <div class="welcome" id="welcome">
+      <div class="welcome-card">
+        <div class="welcome-icon">AI</div>
+        <div class="mode-pill">BẢN ĐỌC MỘT TRANG</div>
+        <h1>Cẩm nang AI Y tế Việt Nam 2026</h1>
+        <p>Mỗi lần chỉ hiển thị và lật đúng một trang. Trang được mở lớn để chữ rõ hơn; có thể dùng A−/A+ để điều chỉnh thêm.</p>
+        <div class="welcome-hints">
+          <span>← → Phím mũi tên</span>
+          <span>Vuốt trái / phải</span>
+          <span>Mục lục và tìm kiếm</span>
+        </div>
+        <button id="startBtn">Bắt đầu đọc</button>
+      </div>
+    </div>
+  </div>
+  <script src="content-data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
